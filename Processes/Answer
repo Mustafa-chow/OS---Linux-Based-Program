@@ -1,0 +1,33 @@
+# 1 (2.6)
+4 GB = 4000 MB
+OS used 512 MB
+Avaiable memory = 4000-512 = 3488 MB
+processes = 3488/256 = 1.6 ~ 14 processes
+
+CPU Ulilization = 1 - p^n
+99% = 1 - p^14
+p^14 = 1- .99 = 0.1
+p = 0.72
+
+Therefore, maximum I/O wait can be tolarated is 72%
+
+#2 (2.7)
+
+Two jobs need 20 minutes each with 50% I/O time.
+
+Sequential = 20/.5 + 20/.5 = 40 + 40 = 80 minutes
+Parallel: 
+2 job
+
+CPU Utilization = 1 - p^n = 1 - .5^2 = 0.75
+CPU Utilization for 1 process = 0.75/2 = 0.375
+Time requried in parallel = 20/0.375 = 53.33
+
+#3
+The PPID is the same before and after the parent process is terminate.
+
+#5
+3427 processes created after that my computer get chrashed, my computer have 8 GB RAM.
+
+#6
+The CPU Info of my machine is: AMD A9-9410 RADEON R5, 5 COMPUTE CORES 2C+3G
