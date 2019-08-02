@@ -1,0 +1,21 @@
+X = 19530
+
+ITERATION 1
+Parent: x = 19525
+Child: x = 3905
+
+ITERATION 2
+Parent: x = 3900
+Child: x = 780
+
+ITERATION 3
+Parent: x = 775
+Child: x = 155
+
+ITERATION 4
+Parent: x = 150
+Child: x = 30
+
+ITERATION 5
+Parent: x = 25
+Child: x = 5
